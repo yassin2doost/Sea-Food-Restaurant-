@@ -585,7 +585,7 @@ ul.order li span.count span {
           justify-content: flex-end;
 }
 .menu-fish img {
-  float: left;
+  float: right;
   width: 150px;
   margin-right: 1rem;
 }

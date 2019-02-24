@@ -1,25 +1,25 @@
 // This is just some sample data so you don't have to think of your own!
 const fishes = {
   fish1: {
-    name: "Pacific Halibut",
+    name: "ماهی حلوای جنوب",
     image: "/images/hali.jpg",
     desc:
-      "Everyone’s favorite white fish. We will cut it to the size you need and ship it.",
+      "ماهی حلوای جنوب با بهترین کیفیت از خود بندر تا درب منزل شما",
     price: 1724,
-    status: "available"
+    status: "موجود"
   },
 
   fish2: {
-    name: "Lobster",
+    name: "خرچنگ",
     image: "/images/lobster.jpg",
     desc:
-      "These tender, mouth-watering beauties are a fantastic hit at any dinner party.",
+      "هر کسی که عاشق خرچنگه حتما باید غذای مخصوص ما رو امتحان کنه",
     price: 3200,
-    status: "available"
+    status: "موجود"
   },
 
   fish3: {
-    name: "Sea Scallops",
+    name: "سوشی کره",
     image: "/images/scallops.jpg",
     desc:
       "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",

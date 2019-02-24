@@ -5,7 +5,8 @@ class Inventory extends Component {
     return (
       <div className="inventory">
         انبار
-        <AddFishForm addfish={this.props.addfish} />
+        <AddFishForm addFish={this.props.addFish} />
+        <button onClick={this.props.loadSample}> ساخت  خودکار لیست </button>
       </div>
     );
   }
