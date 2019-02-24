@@ -2,8 +2,8 @@
 import React, { Component } from 'react';
 
 class Order extends Component {
-    render(){
-        return <div className="order"> Order!! </div>
+    render(props){
+        return <div className="order">سفارشات ! </div>
     }
 }
 
