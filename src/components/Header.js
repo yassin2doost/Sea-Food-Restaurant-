@@ -4,7 +4,7 @@ import React from 'react';
 
 const Header = ({tagline}) => (
     <header className="top">
-        <h1>
+        <h1 className="farsiStyle">
         شکار 
         <span className="ofThe">
             <span className="of"> تازه </span>

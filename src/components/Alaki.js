@@ -15,7 +15,8 @@ class Alaki extends Component {
     return (
       <div>
         <h2>
-          {this.props.alaki}
+          {this.props.polo}
+          {this.props.name}
         </h2>
         <form className="form-group" onSubmit={this.submitToServer}>
           <input style={this.props.style}

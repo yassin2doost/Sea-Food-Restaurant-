@@ -312,6 +312,9 @@ h2 {
 h3 {
   font-size: 3rem;
 }
+.farsiStyle {
+  margin-bottom: -6rem;
+}
 header.top {
   text-align: center;
 }
@@ -435,7 +438,6 @@ input#fold:not(:checked) ~ #main .catch-of-the-day > * {
 label[for="fold"] {
   position: absolute;
   top: 1rem;
-  paddingbo: 5rem;
   left: 1rem;
   text-transform: uppercase;
   font-size: 1.3rem;
@@ -460,9 +462,12 @@ ul {
 ul.order li {
   border-bottom: 1px solid #000;
   padding: 2rem 0;
+  align-self: center;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  align-content: center;
+  display: list-item;
+  margin-right:2.5rem; 
   font-size: 1.4rem;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
@@ -482,6 +487,7 @@ ul.order li button {
 }
 ul.order li.total {
   font-weight: 600;
+  
   border-bottom: 3px solid #000;
   border-top: 3px double #000;
 }
@@ -607,8 +613,8 @@ input[type=submit][disabled] {
   color: #d12028;
   background: #fff;
   border-color: #d12028;
-  -webkit-transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
-          transform: rotate(-10deg) scale(2) translateX(50%) translateY(-50%);
+  -webkit-transform: rotate(-40deg) scale(2) translateX(-10%) translateY(-0%);
+          transform: rotate(40deg) scale(2) translateX(-110%) translateY(50%);
 }
 button[disabled]:hover,
 input[type=submit][disabled]:hover {
@@ -897,4 +903,17 @@ blockquote {
 	direction: ltr;
 	margin-bottom: 0px;
 	padding-bottom: 0px;
+}
+
+.order-image {
+  float: right;
+  padding: 0.5rem;
+  margin-top: -1.5rem;
+  align-content: center;
+  height: 8rem;
+  width: 8rem;
+  position: initial;
+  border-radius: 100rem;
+  
+
 }

@@ -22,9 +22,9 @@ const fishes = {
     name: "سوشی کره",
     image: "/images/scallops.jpg",
     desc:
-      "Big, sweet and tender. True dry-pack scallops from the icey waters of Alaska. About 8-10 per pound",
+      "بهترین سوشی دنیا رو از ما بخاهید",
     price: 1684,
-    status: "unavailable"
+    status: "ناموجود"
   },
 
   fish4: {
@@ -33,7 +33,7 @@ const fishes = {
     desc:
       "Lean flesh with a mild, sweet flavor profile, moderately firm texture and large, moist flakes. ",
     price: 1129,
-    status: "available"
+    status: "ناموجود"
   },
 
   fish5: {
@@ -42,7 +42,7 @@ const fishes = {
     desc:
       "Crack these open and enjoy them plain or with one of our cocktail sauces",
     price: 4234,
-    status: "available"
+    status: "موجود"
   },
 
   fish6: {
@@ -51,7 +51,7 @@ const fishes = {
     desc:
       "This flaky, oily salmon is truly the king of the sea. Bake it, grill it, broil it...as good as it gets!",
     price: 1453,
-    status: "available"
+    status: "موجود"
   },
 
   fish7: {
@@ -59,7 +59,7 @@ const fishes = {
     image: "/images/oysters.jpg",
     desc: "A soft plump oyster with a sweet salty flavor and a clean finish.",
     price: 2543,
-    status: "available"
+    status: "موجود"
   },
 
   fish8: {
@@ -68,7 +68,7 @@ const fishes = {
     desc:
       "The best mussels from the Pacific Northwest with a full-flavored and complex taste.",
     price: 425,
-    status: "available"
+    status: "موجود"
   },
 
   fish9: {
@@ -77,7 +77,7 @@ const fishes = {
     desc:
       "With 21-25 two bite prawns in each pound, these sweet morsels are perfect for shish-kabobs.",
     price: 2250,
-    status: "available"
+    status: "موجود"
   }
 };
 

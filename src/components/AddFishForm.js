@@ -34,8 +34,8 @@ class AddFishForm extends Component {
         />
 
         <select name="status" ref={this.statusRef}>
-          <option value=" available"> موجود </option>
-          <option value=" unavailable"> تمام شده </option>
+          <option value=" موجود"> موجود </option>
+          <option value=" تمام شده"> تمام شده </option>
         </select>
 
         <textarea name="desc" ref={this.descRef} placeholder="شرح " />
