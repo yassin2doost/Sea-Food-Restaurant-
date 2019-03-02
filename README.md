@@ -7,3 +7,4 @@
  ## <p dir="rtl">   </p>
 
 ![نمونه اول](/public/sample/pic1.png)
+![نمونه اول](/public/sample/pic2.png)
